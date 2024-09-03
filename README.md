@@ -19,3 +19,22 @@ You can install the required dependencies using `pip`:
 
 ```bash
 pip install opencv-python-headless tensorflow
+
+## Clone the Repository
+
+Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/yourusername/hr_object_detect_example.git
+cd hr_object_detect_example
+
+## Usage
+
+### Prepare the Environment:
+Ensure that your webcam is connected and functioning. Place the `labelmap.pbtxt` file in the same directory as your `main.py` script.
+
+### Run the Script:
+To start the object detection, run the following command:
+
+```bash
+python main.py

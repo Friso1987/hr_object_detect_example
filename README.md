@@ -19,7 +19,7 @@ You can install the required dependencies using `pip`:
 
 ```bash
 pip install opencv-python-headless tensorflow
-
+```
 ## Clone the Repository
 
 Clone this repository to your local machine:
@@ -27,7 +27,7 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/hr_object_detect_example.git
 cd hr_object_detect_example
-
+```
 ## Usage
 
 ### Prepare the Environment:
@@ -38,3 +38,6 @@ To start the object detection, run the following command:
 
 ```bash
 python main.py
+```
+
+The tool will open a window displaying the video stream from your webcam with detected objects highlighted. It will also log the detected objects along with the time of detection to object_detections.csv.
